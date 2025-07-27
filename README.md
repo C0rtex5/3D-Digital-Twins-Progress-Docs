@@ -10,7 +10,7 @@ This is based on my learning on my 8 week work, so all this documentation is bas
 
 # Week 1
 
-In the first week, I participated in an internship focused on the development and simulation of *Digital Twins*—virtual 3D replicas of real-world systems—with a particular emphasis on clean energy infrastructure and energy efficiency. In the first week, I was introduced to the core topic through a kickoff meeting and was given learning materials to explore the concept. My task was to research the theme and deliver a presentation summarizing my understanding of Digital Twins, which I completed successfully despite the complexity of the subject.
+In the first week, I participated in an internship focused on the development and simulation of *Digital Twins*, which are virtual 3D replicas of real-world systems with a particular emphasis on clean energy infrastructure and energy efficiency. In the first week, I was introduced to the core topic through a kickoff meeting and was given learning materials to explore the concept. My task was to research the theme and deliver a presentation summarizing my understanding of Digital Twins, which I completed successfully despite the complexity of the subject.
 
 # Week 2
 
@@ -38,32 +38,43 @@ In the seventh week, I attempted to improve simulation workflows on both operati
 
 # Week 8
 
-In the final week, unable to deliver a working autonomous vehicle model, I shifted focus toward deepening my knowledge of automation and AI within vehicle simulation contexts. I explored Python-based tools and environments, including the Anaconda platform, dedicating time to reading documentation and understanding the technologies. This self-guided study reinforced my foundation for applying these concepts in future projects—personal or professional—and concluded my internship on a note of technical growth and exploration.
+In the final week, unable to deliver a working autonomous vehicle model, I shifted focus toward deepening my knowledge of automation and AI within vehicle simulation contexts. I explored Python-based tools and environments, including the Anaconda platform, dedicating time to reading documentation and understanding the technologies. This self-guided study reinforced my foundation for applying these concepts in future projects, personally or professionally. Concluding my internship on a note of technical growth and exploration.
 
 # Conclusion
 
 Throughout these eight weeks, my internship provided a deep and multifaceted learning experience, combining technical challenges, independent research, and real-world problem solving. From my initial exposure to the concept of Digital Twins to the final weeks focused on AI-driven vehicle simulations, each stage of the internship pushed me to expand my understanding of complex technologies and adapt to evolving demands.
 
-I faced significant challenges—ranging from software integration hurdles and lack of initial guidance, to the difficulty of working across different operating systems. However, these obstacles became catalysts for growth, requiring me to troubleshoot, seek solutions proactively, and rethink my approach when necessary. The shift from theoretical research to practical implementation taught me how to navigate ambiguity, manage project expectations, and apply self-discipline in the absence of constant oversight.
+I faced significant challenges, ranging from software integration hurdles and lack of initial guidance, to the difficulty of working across different operating systems. However, these obstacles became catalysts for growth, requiring me to troubleshoot, seek solutions proactively, and rethink my approach when necessary. The shift from theoretical research to practical implementation taught me how to navigate ambiguity, manage project expectations, and apply self-discipline in the absence of constant oversight.
 
 By the end of the internship, I had successfully explored tools like Blender, VTK, Point Cloud visualization, Unreal Engine, AirSim, and Python-based platforms such as Anaconda. While I didn’t fully implement an autonomous driving system, I built a strong technical foundation and gained valuable insight into the workflows, tools, and decision-making processes involved in complex simulation environments.
 
 Ultimately, this internship strengthened my problem-solving abilities, broadened my technical skill set, and reaffirmed my motivation to pursue a career that bridges technology, simulation, and innovation. It was not only a step forward in technical capability but also a personal development journey in resilience and adaptability.
 
-# References
-
-* [AirSim Github](https://github.com/microsoft/AirSim?tab=readme-ov-file)
-
-## Useful Links
-
-This links below are the citations on the documentation:
-
-### Base softwares:
+# Base softwares:
 
 [![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white)](https://www.blender.org)
 [![Unity](https://img.shields.io/badge/Unity-%23000000.svg?logo=unity&logoColor=white)](https://unity.com/)
 [![UE](https://img.shields.io/badge/Unreal%20Engine-0E1128.svg?style=for-the-badge&logo=Unreal-Engine&logoColor=white)](https://www.unrealengine.com/en-US/)
 
+# References
+
+* [Point cloud visualizer Github](https://github.com/uhlik/bpy)
+* [AirSim Github](https://github.com/microsoft/AirSim?tab=readme-ov-file)
+* [AirSim Autonomous Driving Cookbook Github](https://github.com/Microsoft/AutonomousDrivingCookbook)
+* [Tutorial 1 (Autonomous Driving Cookbook)](https://github.com/microsoft/AutonomousDrivingCookbook/tree/master/AirSimE2EDeepLearning)
+
+## Useful Links
+
+This links below are the citations on the documentation:
+* [Step 0 (AirSim Github)](https://github.com/microsoft/AutonomousDrivingCookbook/blob/master/AirSimE2EDeepLearning/DataExplorationAndPreparation.ipynb)
+* [Step 1 (AirSim Github)](https://github.com/microsoft/AutonomousDrivingCookbook/blob/master/AirSimE2EDeepLearning/TrainModel.ipynb)
+* [Step 2 (AirSim Github)](https://github.com/microsoft/AutonomousDrivingCookbook/blob/master/AirSimE2EDeepLearning/TestModel.ipynb)
+
 ### Unsupported Tools:
 
-[![LG SVL](https://img.shields.io/badge/LG%20SVL-%23000000.svg?logo=lg&logoColor=white)](https://github.com/lgsvl/simulator)
+* [LG SVL (Offline and online only)](https://github.com/lgsvl/simulator)
+* [Point Cloud Github CSV (For too old Blender version and for unused file format)](https://github.com/LutraRomp/io_mesh_csv)
+
+### Unused Tools:
+
+* [VTK Tool (For Blender)](https://github.com/simboden/BVtkNodes)
