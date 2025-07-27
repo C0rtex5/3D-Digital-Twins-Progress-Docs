@@ -1,4 +1,4 @@
-# 3D-Digital-Twins-Simple-Docs
+# 3D Digital Twins (History on my progress)
 
 ## Description
 
